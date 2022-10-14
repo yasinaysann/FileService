@@ -1,5 +1,5 @@
 FROM openjdk:17-alpine AS build
-
+WORKDIR fileapp
 
 COPY pom.xml mvnw ./
 COPY .mvn .mvn
